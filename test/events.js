@@ -1,7 +1,7 @@
 
 var superagent = require('superagent');
 var should = require('should');
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 
 var config = require('./app/config.js');
 config.port = 6501;
